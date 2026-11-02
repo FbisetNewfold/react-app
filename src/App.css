@@ -1,0 +1,31 @@
+.app {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.app h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
+}
+
+.app p {
+  margin: 0 0 1.5rem;
+  color: #64748b;
+}
+
+.app button {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.65rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: #2563eb;
+  cursor: pointer;
+}
+
+.app button:hover {
+  background: #1d4ed8;
+}

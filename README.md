@@ -1,6 +1,6 @@
 # react-app
 
-Basic React application using [Vite](https://vite.dev/) and Node.js.
+React + TypeScript front end (Vite) with React Router and an Express API on Node.js.
 
 ## Prerequisites
 
@@ -14,15 +14,28 @@ npm install
 
 ## Development
 
+Runs the Vite dev server and Express API together:
+
 ```bash
 npm run dev
 ```
 
-Open the URL shown in the terminal (usually http://localhost:5173).
+- **Client:** http://localhost:5173 (API requests to `/api/*` are proxied to Express)
+- **API:** http://localhost:3001
 
-## Production build
+## Type checking
+
+```bash
+npm run typecheck
+```
+
+## Production
 
 ```bash
 npm run build
-npm run preview
+npm start
 ```
+
+Open http://localhost:3001 — Express serves the built app and `/api/hello`.
+
+Or use `npm run preview` to build and start in one step.

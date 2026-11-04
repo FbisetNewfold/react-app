@@ -30,7 +30,7 @@ npm run typecheck
 ```
 
 ## Production
-
+haveanotherproductionEnv=Test
 ```bash
 npm run build
 npm start
